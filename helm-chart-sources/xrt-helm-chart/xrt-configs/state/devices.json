@@ -1,0 +1,26 @@
+{
+  "apiVersion": "v2",
+  "devices": [
+    {
+      "name": "ethernetip-sim",
+      "profileName": "ethernetip-sim-profile",
+      "protocols": {
+        "EtherNet-IP": {
+          "Address": "172.17.0.3",
+          "O2T": {
+            "ConnectionType": "p2p",
+            "Ownership": "exclusive",
+            "Priority": "low",
+            "RPI": 10
+          },
+          "T2O": {
+            "ConnectionType": "p2p",
+            "Ownership": "exclusive",
+            "Priority": "low",
+            "RPI": 10
+          }
+        }
+      }
+    }
+  ]
+}

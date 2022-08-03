@@ -1,0 +1,28 @@
+{
+    "Xrt": {
+        "Details": {
+            "Name": "License",
+            "Company": "IoTech",
+            "Type": "Evaluation",
+            "Created": "1630663503",
+            "Duration": "unlimited",
+            "Expiry": "never",
+            "ID": "v1.2"
+        },
+        "Components": [
+            "XRT::Bus",
+            "XRT::ModbusDeviceService",
+            "XRT::EtherCATDeviceService",
+            "XRT::OPCUADeviceService",
+            "XRT::BACnetDeviceService",
+            "XRT::EtherNetIPDeviceService",
+            "XRT::ProfinetDeviceService",
+            "XRT::SiteWiseExporter",
+            "XRT::AzureExporter",
+            "XRT::AzureSphereExporter",
+            "XRT::BLEDeviceService",
+            "XRT::S7DeviceService"
+        ]
+    },
+    "Signature": "R5Or/5UqPpf2LmHgTItLUj0pVQK8J9d/xPJrUMN8j/LMW10C5r2rq7wJoEUlMpKZ2diSXAyhj3RzALYttQHS59RzFr9LUwqKR89ob8iX4hliNIRsN/AvyLtY9j39uxmYoAaoP2eFTlvLefSyIJ0qzJdlwWSoe1OeVE2x+Ko3YOrhJx25lw6zMpyjmfhcs5PwAsvuOkqtiNHAZ173HHGkL9N2l5ibtJrON3he3uftxUp/7L5YN9n7DO7flupT/oifqssmLtapwyGdhOTTOmKtyKxQWOZFeUx8vfbwO2sN+l0CnDQL24vhWmQuN3hVxp140zrmjSl0bGPKt3uhxPbz/A=="
+}

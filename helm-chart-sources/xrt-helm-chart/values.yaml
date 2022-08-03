@@ -1,0 +1,33 @@
+# Default values for mychart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: iotechsys/xrt-server
+  pullPolicy: Never
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "2.0.0-x86"
+
+hostNetwork: true  
+
+volumes:
+  - name: config-volume
+    configMap:
+      name: config-configmap
+  - name: profiles-volume
+    configMap:
+      name: profiles-configmap
+  - name: state-volume
+    configMap:
+      name: state-configmap
+
+volumeMounts:
+  - name: config-volume
+    mountPath: /opt/iotech/xrt/2.0/deployment/config
+  - name: profiles-volume
+    mountPath: /opt/iotech/xrt/2.0/deployment/profiles
+  - name: state-volume
+    mountPath: /opt/iotech/xrt/2.0/deployment/state
+    

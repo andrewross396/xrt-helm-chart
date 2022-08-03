@@ -1,0 +1,15 @@
+{
+  "apiVersion": "v2",
+  "schedules": [
+    {
+      "device": "ethernetip-sim",
+      "interval": 1000000,
+      "name": "schedule1",
+      "resource": [
+        "AssemblyGet",
+        "ProductCode",
+        "SerialNumber"
+      ]
+    }
+  ]
+}

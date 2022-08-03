@@ -1,0 +1,20 @@
+{
+  "Library": "libxrt-ethernet-ip-device-service.so",
+  "Factory": "xrt_ethernet_ip_device_service_factory",
+  "Name": "ethernet_ip",
+  "TelemetryTopic": "xrt/devices/ethernet_ip/telemetry",
+  "RequestTopic": "xrt/devices/ethernet_ip/request",
+  "ReplyTopic": "xrt/devices/ethernet_ip/reply",
+  "PublishRegisteredDevices": true,
+  "PublishAttributes": true,
+  "ProfileDir":"/opt/iotech/xrt/2.0/deployment/profiles",
+  "StateDir":"/opt/iotech/xrt/2.0/deployment/state",
+  "Scheduler":"sched",
+  "Logger":"logger",
+  "ThreadPool":"pool",
+  "Bus":"bus",
+  "Driver": {
+    "NetworkInterface": "docker0",
+    "ConnectionTimeout" : 3000
+  }
+}

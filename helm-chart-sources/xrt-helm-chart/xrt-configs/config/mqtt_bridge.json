@@ -1,0 +1,30 @@
+{
+  "Library": "libxrt-mqtt-bridge.so",
+  "Factory": "xrt_mqtt_bridge_factory",
+  "Patterns": [
+    "xrt/devices/ethernet_ip/telemetry",
+    "xrt/devices/ethernet_ip/reply",
+    "vmcstored/3333-001/XRT/message",
+    "vmcdeclaration/3333-001/XRT/declaration"
+  ],
+  "MQTTPatterns": [ "xrt/devices/ethernet_ip/request" ],
+  "MQTTConfig":
+  {
+    "ServerURI": "tcp://localhost:1883",
+    "ClientID": "xrt",
+    "QoS": 1,
+    "ClientConfig":
+    {
+      "KeepAliveInterval": 10,
+      "MQTTVersion": 3,
+      "Username": "user",
+      "Password": "verysafe01"
+    },
+    "RetryCount": 5,
+    "RetryInterval": 5
+  },
+  "Cookie": 125,
+  "QueueSize": 10,
+  "Bus": "bus",
+  "Logger": "logger"
+}
