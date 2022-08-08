@@ -1,0 +1,17 @@
+{
+    "Xrt": {
+        "Details": {
+            "Name": "Andrew",
+            "Company": "IoTech",
+            "Type": "Evaluation",
+            "Created": "1659958681",
+            "Duration": "31",
+            "Expiry": "2022-Sep-08",
+            "ID": "0009"
+        },
+        "Components": [
+            "XRT::All"
+        ]
+    },
+    "Signature": "YM1F9XP+BlyPr9UlAOnquaK+4ApY2F8GP102q81V+CP21a7rYQOkccQoX3KDNCF+NRMa85ULfdZ2d4zKe0Hdq7GD4dcfjfHqlapoNagTD1/ghqa9oXGYoaSJLnkBV3Xpa+Mt5xOoZQ8pV9Vu0PLsu4hrZPVbfROq+iNwnTddNyEB0w3pDpTg7aGVcnJD0E0AanhHP0/l+Co1Ash1VkYKdU3xYUXcxzqWen5C/qVEhRNlGX1o5jDE+zG3uV4EXLvyy9R91iHTCxrJy1B7Y9l1MKH3OkqL9hbuml9VOzjRTW9tiI+jdpDmehWJOaoeZBzZHYUdNLd+7/CArIU+iXLBhw=="
+}
