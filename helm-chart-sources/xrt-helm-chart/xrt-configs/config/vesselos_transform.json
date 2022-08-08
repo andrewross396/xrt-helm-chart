@@ -4,8 +4,8 @@
   "Bus": "bus",
   "Logger": "logger",
   "QueueSize": 10,
-  "VesselID": "3333-001",
-  "Topic":"vmcstored/3333-001/XRT/message",
-  "Dec_Topic":"vmcdeclaration/3333-001/XRT/declaration",
+  "VesselID": "0000-001",
+  "Topic":"vmcstored/0000-001/XRT/message",
+  "Dec_Topic":"vmcdeclaration/0000-001/XRT/declaration",
   "Resources":{"TestInt1":"float64", "AssemblyGet":"float64", "ProductCode":"float64", "SerialNumber":"float64"}
 }
